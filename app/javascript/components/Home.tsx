@@ -12,12 +12,12 @@ import { FormatCAD } from "../helpers/Formatter";
 export const Home: React.FC = () => {
 
     const sections = [
-        ["Reports", FolderIcon, "/reports"],
+        // ["Reports", FolderIcon, "/reports"],
         ["Budgets", ChartHistogramSecondLastIcon, "/budgets"],
-        ["Summary", ChartHistogramSecondLastIcon, "/summary"],
+        // ["Summary", ChartHistogramSecondLastIcon, "/summary"],
         ["Import Rules", ChartHistogramSecondLastIcon, "/rules"],
-        ["Schedule", ChartHistogramSecondLastIcon, "/schedule"],
-        ["Notes", ChartHistogramSecondLastIcon, "/notes"],
+        // ["Schedule", ChartHistogramSecondLastIcon, "/schedule"],
+        // ["Notes", ChartHistogramSecondLastIcon, "/notes"],
     ];
 
     const params = useParams();
